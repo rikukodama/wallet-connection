@@ -1,10 +1,14 @@
 import React from "react";
 import Logo from "./Logo";
+import SearchBox from "./SearchBox";
+import NavBar from "./Navbar";
 
 const Header: React.FC = () => {
     return (
-        <div className="px-8 flex">
-            <Logo/>
+        <div className="px-20 flex w-full justify-between">
+            <Logo />
+            <SearchBox />
+            <NavBar />
         </div>
     );
 };
