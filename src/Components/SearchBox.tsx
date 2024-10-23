@@ -18,6 +18,7 @@ const SearchBox: React.FC = () => {
       value={inputValue}
       onChange={handleInputChange}
       placeholder="Search"
+      className='focus:outline-none bg-mainBG'
     />
     </div>
   );

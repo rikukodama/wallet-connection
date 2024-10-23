@@ -5,7 +5,7 @@ import NavBar from "./Navbar";
 
 const Header: React.FC = () => {
     return (
-        <div className="px-20 flex w-full justify-between">
+        <div className="px-28 flex w-full justify-between">
             <Logo />
             <SearchBox />
             <NavBar />

@@ -37,6 +37,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  background-color: #f5f4f0;
   /* min-height: 100vh; */
 }
 

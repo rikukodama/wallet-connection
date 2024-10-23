@@ -10,11 +10,13 @@ export default {
     extend: {
       fontFamily: {
         'reklame': ['"Reklame Script"', 'cursive'], // Add the font and fallback
+        'suez': ['"Suez One"', 'serif'],
       },
       colors : {
         "mainRed" : "#DA392B",
         "mainBG" : "#f5f4f0",
-        "purple" : "#5F5BCD"
+        "lightPurple" : "#5F5BCD",
+        "darkPurple" : "#272443"
       },
       boxShadow: {
         'custom-red': '1px 1px 15px #DA392B',
