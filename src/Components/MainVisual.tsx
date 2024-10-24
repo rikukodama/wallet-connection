@@ -1,4 +1,5 @@
 import React from 'react';
+import { WalletConnect } from './wallet';
 
 const MainVisual: React.FC = () => {
     return (
@@ -24,7 +25,7 @@ const MainVisual: React.FC = () => {
                                 "Divine Justice Awaits Your Next Move!"
                             </div>
                             <div className='text-center lg:inline-block lg:w-fit mx-auto'>
-                                <button className='rounded-full bg-white text-purple shadow-custom-purple py-2 px-4 inline-block w-fitmx-auto'>Connect Wallet</button>
+                                <WalletConnect />
                             </div>
                         </div>
                         <div className='sm:absolute sm:-top-10 sm:right-0 mt-5'>

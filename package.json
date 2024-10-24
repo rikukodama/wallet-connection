@@ -12,6 +12,13 @@
   "dependencies": {
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/wallet-adapter-glow": "^0.1.18",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-slope": "^0.5.21",
+    "@solana/wallet-adapter-sollet": "^0.11.17",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@types/react-toastify": "^4.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -26,6 +33,7 @@
     "eslint-plugin-react-refresh": "^0.4.13",
     "globals": "^15.11.0",
     "postcss": "^8.4.47",
+    "sass-embedded": "^1.80.4",
     "tailwindcss": "^3.4.14",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.10.0",
