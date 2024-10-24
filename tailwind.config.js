@@ -12,9 +12,19 @@ export default {
         'reklame': ['"Reklame Script"', 'cursive'], // Add the font and fallback
         'suez': ['"Suez One"', 'serif'],
       },
+      height :{
+        'vh-20': 'calc(100vh - 5rem)',
+      },
+      screens : {
+        'xs': '480px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+      },
       colors : {
         "mainRed" : "#DA392B",
-        "mainBG" : "#f5f4f0",
+        "mainBG" : "#f6f4f0",
         "lightPurple" : "#5F5BCD",
         "darkPurple" : "#272443"
       },

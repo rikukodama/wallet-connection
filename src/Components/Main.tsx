@@ -1,11 +1,13 @@
 import React from "react";
 import MainVisual from "./MainVisual";
+import Presale from "./Presale";
 
 const Main: React.FC = () => {
     return (
-        <div className="px-28 flex justify-between">
+        <>
             <MainVisual />
-        </div>
+            <Presale />
+        </>
     );
 };
 

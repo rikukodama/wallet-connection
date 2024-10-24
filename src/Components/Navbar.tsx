@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar: React.FC = () => {
     return (
-        <nav className='h-fit shadow-custom-red rounded-b-xl' style={{ fontFamily: 'sans-serif' }}>
+        <nav className='h-fit shadow-custom-red rounded-b-xl min-w-72' style={{ fontFamily: 'sans-serif' }}>
             <span className='text-black inline-block bg-white hover:text-white hover:bg-mainRed px-4 py-4 rounded-bl-xl'>Home</span>
             <span className='text-black inline-block bg-white hover:text-white hover:bg-mainRed px-4 py-4'>Games</span>
             <span className='text-black inline-block bg-white hover:text-white hover:bg-mainRed px-4 py-4'>Careers</span>

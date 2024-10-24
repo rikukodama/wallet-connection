@@ -12,13 +12,13 @@ const SearchBox: React.FC = () => {
 
   return (
     <div className='border border-black h-fit flex p-2 gap-2 mt-2'>
-    <img src= {searchIcon} alt="searchIcon" className='w-4 h-4 items-center'/>
+    <img src= {searchIcon} alt="searchIcon" className='w-4 h-4 items-center mt-1'/>
     <input
       type="text"
       value={inputValue}
       onChange={handleInputChange}
       placeholder="Search"
-      className='focus:outline-none bg-mainBG'
+      className='focus:outline-none bg-mainBG w-full'
     />
     </div>
   );
